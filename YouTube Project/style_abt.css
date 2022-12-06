@@ -26,7 +26,6 @@ html {
 }
 .content {
   color: black;
-  /* font-size: 20px; */
   text-align: center;
   letter-spacing: 3px;
   word-spacing: 5px;
@@ -98,11 +97,6 @@ ul li a:hover {
   grid-template-rows: 5fr 1fr;
 }
 
-.blogo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .slogo {
   display: flex;
   align-items: center;
@@ -141,11 +135,11 @@ ul li a:hover {
     position: relative;
   }
   .logo {
-    font-size: 70px;
+    font-size: 65px;
     margin-bottom: 0px;
     display: block;
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: -100px;
   }
   ul li {
     font-size: 55px;
@@ -155,7 +149,6 @@ ul li a:hover {
     font-size: 25px;
   }
   .icon {
-    grid-area: icon;
     position: relative;
     margin-bottom: 0px;
     display: flex;
@@ -169,8 +162,8 @@ ul li a:hover {
   .navbar {
     margin-top: 0px;
     display: grid;
-    /* display: grid; */
-    grid-template-columns: 2fr 5fr 3fr;
+    /* grid-template-columns: 2fr 5fr 3fr; */
+    grid-template-columns: 2fr 6fr;
     margin: auto;
   }
   .menu ul {
@@ -210,20 +203,11 @@ ul li a:hover {
     font-size: 40px;
   }
 
-  .logo {
-    font-size: 65px;
-    margin-bottom: 0px;
-    display: block;
-    margin-top: 30px;
-    margin-left: -100px;
-  }
+
   ul li {
     font-size: 50px;
   }
 
-  .btn {
-    font-size: 25px;
-  }
   .icon {
     grid-area: icon;
     position: relative;
@@ -232,41 +216,8 @@ ul li a:hover {
     flex-direction: row;
     width: 422px;
   }
-  .menu {
-    grid-area: menu;
-    margin-top: 0px;
-    display: block;
-  }
-  .navbar {
-    margin-top: 0px;
-    display: grid;
-    /* display: grid; */
-    grid-template-columns: 2fr 6fr;
-    margin: auto;
-  }
-  .menu ul {
-    align-self: flex-start;
-    display: flex;
-    justify-content: flex-start;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100vw;
-    position: relative;
-    margin-top: 0px;
-  }
-  .menu ul li {
-    align-self: flex-start;
-  }
 
-  .logo_b {
-    height: 550px;
-    width: 550px;
-  }
-  .logo_s {
-    height: 90px;
-    width: 90px;
-  }
+
   .main1 {
     display: grid;
     grid: auto / auto / auto;
