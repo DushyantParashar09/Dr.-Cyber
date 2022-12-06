@@ -36,7 +36,8 @@ html {
 
 .logo {
   color: #565656;
-  font-family: Arial;
+  font-family: 'Rye', cursive;
+  font-weight: 700;
   float: left;
 }
 
@@ -119,13 +120,13 @@ ul li a:hover {
     font-size: 65px;
     margin-bottom: 0px;
     display: block;
-    margin-top: 30px;
-    margin-left: -100px;
+    line-height: 0.9;
+    margin-top: -10px;
   }
   .logo_s {
-    height: 90px;
-    width: 90px;
-    margin-top: 30px;
+    height: 130px;
+    width: 130px;
+    margin: 20px;
   }
 
 
@@ -149,7 +150,7 @@ ul li a:hover {
     margin-bottom: 0px;
     display: flex;
     flex-direction: row;
-    margin-left: -130px;
+    margin-left: -270px;
   }
   .menu {
     grid-area: menu;
@@ -181,9 +182,7 @@ ul li a:hover {
     width: 550px;
   }
   .logo_s {
-    height: 90px;
-    width: 90px;
-    margin-top: 50px;
+    margin-top: 25px;
   }
 }
 
@@ -215,7 +214,7 @@ ul li a:hover {
   .logo_s {
     height: 65px;
     width: 65px;
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   .logo {

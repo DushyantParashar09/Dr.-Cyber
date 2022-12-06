@@ -58,7 +58,8 @@ mark {
 
 .logo {
   color: #565656;
-  font-family: Arial;
+  font-family: 'Rye', cursive;
+  font-weight: 700;
   float: left;
 }
 
@@ -138,8 +139,8 @@ ul li a:hover {
     font-size: 65px;
     margin-bottom: 0px;
     display: block;
-    margin-top: 30px;
-    margin-left: -100px;
+    line-height: 0.9;
+    margin-top: -10px;
   }
   ul li {
     font-size: 55px;
@@ -150,9 +151,11 @@ ul li a:hover {
   }
   .icon {
     position: relative;
+    grid-area: icon;
     margin-bottom: 0px;
     display: flex;
     flex-direction: row;
+    margin-left: -190px;
   }
   .menu {
     grid-area: menu;
@@ -164,7 +167,7 @@ ul li a:hover {
     display: grid;
     /* grid-template-columns: 2fr 5fr 3fr; */
     grid-template-columns: 2fr 6fr;
-    margin: auto;
+    /* margin: auto; */
   }
   .menu ul {
     align-self: flex-start;
@@ -186,9 +189,9 @@ ul li a:hover {
     width: 550px;
   }
   .logo_s {
-    height: 90px;
-    width: 90px;
-    margin-top: 50px;
+    height: 130px;
+    width: 130px;
+    margin: 20px;
   }
   .header {
     margin-top: 0px;
@@ -206,15 +209,6 @@ ul li a:hover {
 
   ul li {
     font-size: 50px;
-  }
-
-  .icon {
-    grid-area: icon;
-    position: relative;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    width: 422px;
   }
 
 
@@ -268,7 +262,7 @@ ul li a:hover {
   .navbar {
     display: grid;
     grid-template-columns: 2fr 6fr;
-    margin: auto;
+    /* margin: auto; */
     margin-right: 5%;
   }
   .content {
@@ -281,12 +275,12 @@ ul li a:hover {
   .logo_s {
     height: 65px;
     width: 65px;
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   .logo {
     font-size: 35px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin-top: 30px;
     margin-left: 35px;
   }
