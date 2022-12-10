@@ -138,6 +138,8 @@ ul li a:hover {
     left: 0;
     right: 0;
     margin: auto;
+    height: 800px;
+    width: 800px;
   }
 
   ul li {

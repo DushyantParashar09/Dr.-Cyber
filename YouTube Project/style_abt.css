@@ -13,7 +13,7 @@ html {
       rgba(0, 0, 0, -0.1) 50%,
       rgba(0, 0, 0, -0.1) 50%
     ),
-    url(new_bg.png) no-repeat center center fixed;
+    url(bg_home.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -269,7 +269,7 @@ ul li a:hover {
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    /* color: #fff; */
     position: relative;
   }
   .logo_s {
